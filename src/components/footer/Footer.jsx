@@ -326,8 +326,11 @@ const Footer = () => {
           <div className="copyright">
             <div className="copyright__wrapper">
               <p>
-                Copyright © 2024 Apple Inc. All rights reserved.Privacy Policy
-                Terms of Use Sales and Refunds Legal Site Map
+                Copyright © 2024 Apple Inc. All rights reserved.
+                <span>
+                  Privacy Policy | Terms of Use | Sales and Refunds | Legal |
+                  Site Map
+                </span>
               </p>
               <a href="#">United States</a>
             </div>
