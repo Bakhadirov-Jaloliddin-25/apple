@@ -1,7 +1,21 @@
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
 .header {
-  background-color: #f5f5f7;
+  display: flex;
+  flex-direction: column;
   .navbar {
-    padding: 8px 0;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: #f5f5f8f2;
     &__collection {
       display: flex;
       justify-content: center;
@@ -10,5 +24,28 @@
       font-size: 12px;
       color: #3f3f40;
     }
+    &__icon {
+      font-size: 17px;
+    }
+  }
+  .header__info {
+    width: 98%;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+    &__link {
+      color: dodgerblue;
+    }
+    & sup a {
+      color: #000;
+      font-size: 12px;
+      top: 3px;
+    }
+  }
+  .IoIosArrowForward {
+    display: flex;
+    justify-content: end;
+    align-items: center;
   }
 }

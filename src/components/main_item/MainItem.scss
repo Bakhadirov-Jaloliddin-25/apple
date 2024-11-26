@@ -1,0 +1,32 @@
+.main__item__block {
+  display: flex;
+  // align-items: center;
+  // flex-direction: column;
+  // gap: 7px;
+  // margin-top: 10px;
+  // text-align: center;
+  // height: 450px;
+  // padding: 10px;
+}
+
+.main__buttons {
+  display: flex;
+  // flex-direction: row;
+  // gap: 10px;
+}
+
+.main__btn {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: -0.016em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  padding: 10px;
+  border-radius: 20px;
+  // display: flex;
+  // gap: 10px;
+  // align-items: center;
+  // justify-content: center;
+  // flex-direction: column;
+}

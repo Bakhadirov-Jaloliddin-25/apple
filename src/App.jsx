@@ -1,23 +1,21 @@
 import "./App.scss";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
-import Title from "./components/header_title/Title";
 import Main from "./components/main/Main";
 
-import iphone_pro from "./assets/pro.jpg";
-import purple_iPhone from "./assets/purpleIphone.jpg";
-import ipad_air from "./assets/ipad_air.jpg";
+import iPhonePro from "./assets/iPhonePro.jpg";
+import iPhoneEn from "./assets/iPhoneSixteen.jpg";
+import iPadAir from "./assets/iPad.jpg";
 
 function App() {
   return (
     <>
       <Header />
-      <Title />
       <Hero
         title={"iPhone 16 Pro"}
         desc="Hello, Apple Intelligence"
         cl="#fff"
-        url={iphone_pro}
+        url={iPhonePro}
         buttons={["Learn more", "Buy"]}
         btn_bg="blue"
       />
@@ -25,7 +23,7 @@ function App() {
         title={"iPhone 16"}
         desc="Hello, Apple Intelligence"
         cl="#fff"
-        url={purple_iPhone}
+        url={iPhoneEn}
         buttons={["Learn more", "Buy"]}
         btn_bg="white"
       />
@@ -33,7 +31,7 @@ function App() {
         title={"iPad Air"}
         desc="Two sizes. Faster chip. Does it all."
         cl="#000"
-        url={ipad_air}
+        url={iPadAir}
         buttons={["Learn more", "Buy"]}
         btn_bg="blue"
       />

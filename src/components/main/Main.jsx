@@ -1,13 +1,13 @@
 import React from "react";
 import "./Main.scss";
-import MainItem from "./main_item/MainItem";
+import MainItem from "../main_item/MainItem";
 
-import airpods from "../../assets/airpods.jpg";
-import watch from "../../assets/watch.jpg";
-import laptop from "../../assets/laptop.jpg";
-import emojiGirl from "../../assets/emojiGirl.png";
+import airpods from "../../assets/AirPods4.jpg";
+import watch from "../../assets/Watch.jpg";
 import simCards from "../../assets/simCards.jpg";
-import phoneNew from "../../assets/phoneNew.jpg";
+import macBook from "../../assets/MacBookAir.jpg";
+import trade from "../../assets/Trade.jpg";
+import emoji from "../../assets/Emoji.png";
 
 const Main = () => {
   return (
@@ -21,7 +21,6 @@ const Main = () => {
           buttons={["Learn more", "Buy"]}
           top="false"
           cl="#fff"
-
         />
         <MainItem
           url={watch}
@@ -33,7 +32,7 @@ const Main = () => {
           cl="#000"
         />
         <MainItem
-          url={laptop}
+          url={macBook}
           title={"MacBook Air"}
           desc1="Lean. Mean. M3 machine"
           desc2=""
@@ -42,7 +41,7 @@ const Main = () => {
           cl="#000"
         />
         <MainItem
-          url={emojiGirl}
+          url={emoji}
           title={"Apple for Small Business"}
           desc1="Hardware, software, and expert"
           desc2="help - all in one place"
@@ -60,7 +59,7 @@ const Main = () => {
           cl="#000"
         />
         <MainItem
-          url={phoneNew}
+          url={trade}
           title={`Trade In`}
           desc1="Get $180 - $650 in credit when you"
           desc2="trade in iPhone 12 or higher."
