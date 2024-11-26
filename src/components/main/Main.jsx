@@ -3,7 +3,7 @@ import "./Main.scss";
 import MainItem from "../main_item/MainItem";
 
 import airpods from "../../assets/AirPods4.jpg";
-import watch from "../../assets/Watch.jpg";
+import watch from "../../assets/watch.jpg";
 import simCards from "../../assets/simCards.jpg";
 import macBook from "../../assets/MacBookAir.jpg";
 import trade from "../../assets/Trade.jpg";
