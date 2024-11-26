@@ -8,7 +8,7 @@ const MainItem = ({ url, title, desc1, desc2, buttons, top, cl, btn_bg }) => {
         style={{
           background: `url(${url}) no-repeat center/cover`,
           color: cl,
-          padding: top === "false" ? "280px 50px 0" : "", // Agar top "false" bo'lsa, padding qo'shish
+          padding: top === "false" ? "380px 50px 0" : "",
         }}
         className="main__item__block"
       >
@@ -23,24 +23,22 @@ const MainItem = ({ url, title, desc1, desc2, buttons, top, cl, btn_bg }) => {
               style={{
                 background:
                   buttons.length === 1
-                    ? "#0171E1" // #0171E1 fon rangi
+                    ? "#0171E1"
                     : btn === "Learn more"
-                    ? "#0171E2" // "Learn more" tugmasining fonini #0171E2 qilib berish
-                    : "transparent", // Orqasi shaffof bo'ladi
-
+                    ? "#0171E2"
+                    : "transparent",
                 color:
                   buttons.length === 1
-                    ? "white" // Agar buttons.length 1 bo'lsa, matnni oq qilish
+                    ? "white"
                     : btn === "Learn more"
-                    ? "white" // "Learn more" tugmasining ichidagi matn oq bo'ladi
-                    : "#0171E2", // Learn more bo'lmagan tugmalar uchun matn #0171E2
-
+                    ? "white"
+                    : "#0171E2",
                 border:
                   buttons.length === 1
-                    ? "none" // Agar buttons.length 1 bo'lsa, chegara bo'lmaydi
+                    ? "none"
                     : btn === "Learn more"
-                    ? "1px solid #0171E2" // "Learn more" tugmasining chegarasi #0171E2 bo'ladi
-                    : `1px solid #0171E2`, // Learn more bo'lmagan tugmalar uchun chegara #0171E2
+                    ? "1px solid #0171E2"
+                    : `1px solid #0171E2`,
               }}
             >
               {btn}

@@ -11,7 +11,7 @@ import emoji from "../../assets/Emoji.png";
 
 const Main = () => {
   return (
-    <div className="container">
+    <div className="lg__con">
       <div className="main__div">
         <MainItem
           url={airpods}

@@ -1,5 +1,8 @@
-.main__div{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 7px;
+.main__div {
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 15px;
+  margin-top: 10px;
 }

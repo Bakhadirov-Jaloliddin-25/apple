@@ -1,0 +1,23 @@
+.footer {
+  background: #f5f5f7;
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 12px;
+  line-height: 1.3333733333;
+  .info__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 175px;
+  }
+  .copyright {
+    .copyright__wrapper {
+      display: flex;
+      justify-content: space-between;
+      a {
+        display: block;
+        color: #3f3f40;
+        text-decoration: none;
+      }
+    }
+  }
+}

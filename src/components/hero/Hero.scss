@@ -1,22 +1,29 @@
 .hero {
   text-align: center;
-  height: 450px;
+  height: 630px;
   padding: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 7px;
-  margin-top: 10px;
-}
-.hero__buttons {
-  display: flex;
   gap: 10px;
-  align-items: center;
-  justify-content: center;
-}
-.hero__btn{
-    padding: 7px;
+  margin-top: 10px;
+  font-size: 30px;
+  line-height: 50px;
+  .hero__buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__btn {
+    font-size: 16px;
+    padding: 10px 20px;
     border-radius: 20px;
     position: relative;
     z-index: 1;
+  }
+  h2 {
+    font-size: 55px;
+    font-weight: 600;
+  }
 }

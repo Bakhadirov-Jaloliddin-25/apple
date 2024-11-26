@@ -1,18 +1,17 @@
 .main__item__block {
   display: flex;
-  // align-items: center;
-  // flex-direction: column;
-  // gap: 7px;
-  // margin-top: 10px;
-  // text-align: center;
-  // height: 450px;
-  // padding: 10px;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+  text-align: center;
+  height: 580px;
+  padding: 40px;
 }
 
 .main__buttons {
   display: flex;
-  // flex-direction: row;
-  // gap: 10px;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .main__btn {
@@ -24,9 +23,9 @@
     "Arial", sans-serif;
   padding: 10px;
   border-radius: 20px;
-  // display: flex;
-  // gap: 10px;
-  // align-items: center;
-  // justify-content: center;
-  // flex-direction: column;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
